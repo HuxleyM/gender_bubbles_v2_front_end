@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Gender Bubbles V2 ##
+
+DEPLOYED HERE: http://gender-bubbles.surge.sh/
+
+## intro ##
+
+This is one of my all time favourite projects, previously made with a lamp stack ive re made it better, faster and less tempramental in react! This is a living gender identity survey, that only rejects sex female and male (intersex and trans are also allowed as these are minority that transends into gender). 
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

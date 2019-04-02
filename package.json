@@ -9,7 +9,7 @@
     "react-scripts": "2.1.8",
     "surge": "^0.20.3"
   },
-  "git": { "scripts": { "pre-push": "surge --project ./build --domain gender-bubbles.surge.sh" },
+  "git": { "scripts": { "pre-push": "surge --project ./build --domain gender-bubbles.surge.sh" }},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
