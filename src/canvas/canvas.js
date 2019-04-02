@@ -9,7 +9,9 @@ class CanvasBase {
    updateCanvasDimensions(){
         this.canvas.height = window.innerHeight;
         this.canvas.width = window.innerWidth;
-        console.log(this.canvas.innerHeight);
+        console.log(this.canvas.height);
+        console.log(this.canvas.width);
+     
     }
 
     animate(array){
