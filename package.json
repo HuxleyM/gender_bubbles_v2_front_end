@@ -9,7 +9,11 @@
     "react-scripts": "2.1.8",
     "surge": "^0.20.3"
   },
-  "git": { "scripts": { "pre-push": "surge --project ./build --domain gender-bubbles.surge.sh" }},
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./build --domain gender-bubbles.surge.sh"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -24,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2"
+  }
 }
