@@ -1,10 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
+import CanvasBase from './canvas';
 
 
-class Canvas extends Component {
-    render(){
-        return <canvas> Your browser doesnt support canvas :0 </canvas>
-    }
+function setupCanvas () {
+
+    useEffect(()=>{
+      const canvasBase = new CanvasBase();
+      canvasBase.animate();
+
+    })
+    
+    return <canvas> Your browser doesnt support canvas :0 </canvas>
+    
 }
 
-export default Canvas;
+export default setupCanvas;
