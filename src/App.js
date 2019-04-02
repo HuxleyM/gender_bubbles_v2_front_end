@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Canvas from './canvas/main';
+
 class App extends Component {
   render() {
     return (
@@ -20,6 +22,7 @@ class App extends Component {
            Hello me!
           </a>
         </header>
+        <Canvas/>
       </div>
     );
   }
