@@ -14,10 +14,6 @@ class CanvasBase {
      
     }
 
-    animate(array){
-        this.clear();
-        this.update(array);
-    }
 
     update(array){
       //array.map(x => x.updateSelf())
