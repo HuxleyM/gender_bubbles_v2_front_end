@@ -1,22 +1,19 @@
 class CanvasBase {
     constructor(){
         this.canvas = document.querySelector('canvas');
-        this.canvas.width = window.innerWidth;
-        this.canvas.height = window.innerHeight;
+        this.width = window.innerWidth;
+        this.height = window.innerHeight;
         this.context = this.canvas.getContext('2d');
     }
 
    updateCanvasDimensions(){
-        this.canvas.height = window.innerHeight;
-        this.canvas.width = window.innerWidth;
-        console.log(this.canvas.height);
-        console.log(this.canvas.width);
-     
+        this.height = window.innerHeight;
+        this.width = window.innerWidth; 
     }
 
 
     update(array){
-      //array.map(x => x.updateSelf())
+      array.map(x => x.updateSelf())
     }
 
     clear(){
