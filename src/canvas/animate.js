@@ -1,11 +1,9 @@
 var animateLoop = (function(){
-   function run(object, circles){
-       console.dir(object)
-        requestAnimationFrame(()=>{ run(object, circles) })
-        object.clear();
-        object.update(circles);       
+   function run(canvas, circles){
+        requestAnimationFrame(()=>{ run(canvas, circles) })
+        canvas.clear();
+        canvas.update(circles);       
    }
-
 
    return {
        run : run

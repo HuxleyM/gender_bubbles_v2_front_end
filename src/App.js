@@ -30,6 +30,7 @@ function App(){
 
     window.addEventListener('resize', () => canvas.updateCanvasDimensions()) 
   })
+  
   return (<canvas>Your browser doesnt support canvas :0 </canvas>)
 }
 
