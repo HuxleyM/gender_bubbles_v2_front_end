@@ -5,9 +5,39 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 DEPLOYED HERE: http://gender-bubbles.surge.sh/
 
+Link to node backend : coming soon
+
 ## intro ##
 
 This is one of my all time favourite projects, previously made with a lamp stack ive re made it better, faster and less tempramental in react! This is a living gender identity survey, that only rejects sex female and male (intersex and trans are also allowed as these are minority that transends into gender). 
+
+## challenges ##
+
+The hardest part of this task is in the revisiting. As this is an older project my thought pattern is sometime locked or naturally assumes ways to recreate parts of this app. Taking time to rethink logic in order to make code less dependent then before is really challenging.
+
+
+## User Stories ## 
+
+A user should be able to submit a gender identity. 
+
+A user should recieve a success notification on submition of their gender identity. 
+
+A submition of sex - other than intersex or trans (these are marginlized communities in which sex tranends into a gender identity) - shall result in an error notification.
+
+There should me a menu, clicking on different menu items should display the relevant corresponding data. 
+
+Submition of an identity should refresh the canvas component. 
+
+Gender identities should be represented as floating circles, whose size is dependent on the percentage of the identity out of all of the submitions. 
+
+clicking on a circle should display idenity and volume of respondents.
+
+clicking on a circle should highlight the circle, making it easier to follow. 
+
+
+
+
+
 
 
 
